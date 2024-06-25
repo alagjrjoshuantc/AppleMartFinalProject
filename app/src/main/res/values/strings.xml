@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">AlagActivity8point1</string>
+
+    <string-array name="payment_options">
+        <item>GCash</item>
+        <item>Visa</item>
+        <item>Mastercard</item>
+        <item>Cash on Delivery</item>
+    </string-array>
+
+    <string-array name="payment_methods">
+        <item>Cash on Delivery</item>
+        <item>Credit Card</item>
+        <item>PayPal</item>
+        <item>Bank Transfer</item>
+    </string-array>
+</resources>

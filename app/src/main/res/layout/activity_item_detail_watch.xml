@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="30dp"
+    tools:context=".ItemDetailWatch">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/backToGadgetShop"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:padding="8dp"
+            android:src="@drawable/arrow" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Popular Items"
+            android:layout_marginStart="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="32sp"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <!-- First LinearLayout with ImageViews -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="25dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:src="@drawable/apple_watch" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Watch Ultra 2 GPS + Cellular Alpine Loop 49mm"
+                    android:textColor="@color/black"
+                    android:textSize="23sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="₱54,990"
+                    android:textColor="@color/black"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:src="@drawable/baseline_star_rate_24" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:text="4.8"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:src="@drawable/baseline_reviews_24" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:text="5"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:text=" Reviews"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+
+                    android:text="Product Details"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="**Watch Ultra 2 GPS + Cellular Alpine Loop 49mm**\n\nExperience the ultimate companion for your outdoor adventures and intense workouts with the Apple Watch Ultra 2 GPS + Cellular Alpine Loop 49mm. Crafted with a lightweight titanium case, this watch is designed to be the most rugged and capable Apple Watch ever. Its extra-long battery life ensures that you stay powered through the most demanding activities, while the brightest-ever display offers unparalleled clarity and visibility in any condition.\n\nFeaturing innovative double tap functionality, the Watch Ultra 2 provides a magical way to interact with your device, making it easier than ever to navigate and control your Apple Watch. Additionally, Precision Finding technology guides you directly to your iPhone, ensuring you never lose track of your essential devices.\n\n**Key Features:**\n- Lightweight Titanium Case: Durable and strong, perfect for any adventure.\n- Extra-Long Battery Life¹: Stay powered throughout your longest excursions.\n- Brightest-Ever Display: Exceptional visibility even in direct sunlight.\n- Double Tap²: A magical way to interact with your Apple Watch.\n- Precision Finding³: Easily locate your iPhone with guided directions.\n\n**Specifications:**\n- Model Number: A2986\n- GPS + Cellular: Stay connected without your iPhone.\n- Alpine Loop Band: Comfortable, secure fit for active lifestyles.\n- 49mm Case: Large and clear display for easy readability.\n\n**Perfect For:**\n- Outdoor enthusiasts seeking a reliable and durable smartwatch.\n- Fitness enthusiasts looking for advanced workout features.\n- Anyone needing a powerful and versatile wearable device.\n\nEmbrace the outdoors with confidence and style, knowing that the Apple Watch Ultra 2 GPS + Cellular Alpine Loop 49mm is designed to keep up with your adventurous spirit."
+                    />
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/addToWishlistWatchUltra"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="5dp"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/orange"
+            app:strokeWidth="2dp"
+            app:strokeColor="@color/orange"
+            android:textSize="18sp"
+            android:text="Add to Wishlist"/>
+        <Button
+            android:id="@+id/addToCartWatchUltra"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/orange"
+            android:textSize="18sp"
+            android:text="Add to Cart"/>
+    </LinearLayout>
+</LinearLayout>

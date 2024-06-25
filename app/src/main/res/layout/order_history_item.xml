@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/custom_edittext"
+    android:layout_margin="10dp"
+    android:padding="16dp">
+
+    <!-- Order Date TextView -->
+    <TextView
+        android:id="@+id/orderDateTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp" />
+
+    <!-- Order Details TextView -->
+    <TextView
+        android:id="@+id/orderDetailsTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/orderDateTextView"
+        android:layout_marginTop="8dp" />
+
+    <!-- Expected Delivery Date TextView -->
+    <TextView
+        android:id="@+id/expectedDeliveryDateTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/orderDetailsTextView"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="@color/orange"
+        android:layout_marginTop="8dp" />
+
+    <!-- Name TextView -->
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/orderDetailsTextView"
+        android:layout_marginTop="8dp" />
+
+    <!-- Email TextView -->
+    <TextView
+        android:id="@+id/emailTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/orderDetailsTextView"
+        android:layout_marginTop="8dp" />
+
+    <!-- Address TextView -->
+    <TextView
+        android:id="@+id/addressTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/orderDetailsTextView"
+        android:layout_marginTop="8dp" />
+
+    <!-- Contact Number TextView -->
+    <TextView
+        android:id="@+id/contactNumberTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/orderDetailsTextView"
+        android:layout_marginTop="8dp" />
+
+    <!-- Delivery Address TextView -->
+    <TextView
+        android:id="@+id/deliveryAddressTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/orderDetailsTextView"
+        android:layout_marginTop="8dp" />
+
+    <!-- Delete Button -->
+    <Button
+        android:id="@+id/deleteButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/expectedDeliveryDateTextView"
+        android:layout_alignParentEnd="true"
+        android:backgroundTint="@color/red"
+        android:layout_marginTop="8dp"
+        android:text="Delete" />
+
+</RelativeLayout>

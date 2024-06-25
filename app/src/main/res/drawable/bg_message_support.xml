@@ -1,0 +1,6 @@
+<!-- bg_message_support.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="#E0E0E0" /> <!-- Light gray color for support messages -->
+    <corners android:radius="8dp" />
+</shape>

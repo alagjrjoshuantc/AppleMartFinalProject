@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "506905923016",
+    "project_id": "alag-activity-8pt1",
+    "storage_bucket": "alag-activity-8pt1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:506905923016:android:b9028c92035f06a815c4fd",
+        "android_client_info": {
+          "package_name": "com.example.alagactivity8point1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCFFtRJ8L9jLV1Kx6SyDr-p5iy0Apr3xA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

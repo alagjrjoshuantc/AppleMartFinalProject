@@ -1,0 +1,8 @@
+<resources>
+    <string-array name="card_types">
+        <item>Visa</item>
+        <item>MasterCard</item>
+        <item>American Express</item>
+        <!-- Add more card types as needed -->
+    </string-array>
+</resources>
